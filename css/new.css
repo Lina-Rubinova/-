@@ -1,0 +1,100 @@
+.new {
+
+    display: flex;
+    height: 804px;
+    flex-direction: column;
+    width: 1400px;
+    justify-content: center;
+    position: relative;
+    left: 140px;
+    justify-content: space-around;
+    height: 800px;
+    
+    
+}
+.new h4{   
+    position: relative;
+}
+.light_one li{
+    list-style-type: disc;
+    color: #FFC94F; 
+    position: relative;
+    left: 20px;
+}
+
+.light_one li span{
+    color: #8C8C8C;
+}
+
+.light_one:hover{
+    -webkit-box-shadow: 0px 5px 66px -28px rgba(255, 201, 79, 0.36);
+    -moz-box-shadow: 0px 5px 66px -28px rgba(255, 201, 79, 0.36);
+    box-shadow: 0px 5px 66px -28px rgba(255, 201, 79, 0.36);
+}
+
+.main_light_one{
+    display: flex;
+    flex-direction: row;
+    height: 621px;
+    justify-content: space-around;   
+}
+.light_one {
+    border: 1px solid #EAEAEA;
+    width: 321px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    transition: 1s;
+}
+
+.light_one p{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;    
+}
+
+.imgg{
+    width: 128px;
+    height: 101px;
+}
+.light_one a{
+    color: #FFF;
+}
+.light_one button{
+    border: none;
+    width: 245px;
+    height: 55px;
+    background: #3D4F64;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.light_one button:hover{
+    background: #4d6785;
+    cursor: pointer;
+}
+
+.bottom_btn{
+    height: 44px;
+    width: 214px;
+    background: #F3C650;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #535353;
+    position: relative;
+    left: 550px;
+    transition: 1s;
+}
+
+.bottom_btn:hover{
+    background: #fffa6f;
+    box-shadow: -10px 10px 7px #a5a5a5;
+    cursor: pointer;
+}

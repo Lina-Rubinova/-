@@ -1,0 +1,107 @@
+.files {
+    display: flex;
+    justify-content: space-around;
+    height: 188px;
+    position: relative;
+    top: 20px;
+}
+
+
+.files h3{
+    z-index: 2;
+    position: relative;
+    left: 220px;
+    top: 30px;
+}
+.last_version {
+    display: flex;
+    flex-direction: row;
+    height: 49px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.last_version1{
+    display: flex;
+    flex-direction: column;
+    width: 896px;
+}
+
+.last_version p:hover{
+    color: #000000;
+
+}
+
+.imgfiles{
+    width: 133px;
+    height: 133px;
+    position: relative;
+    left: -200px;
+    z-index: 0;
+}
+
+
+
+.questions {
+    display: flex;
+    height: 258px;
+    justify-content: center;
+    margin-left: 200px;
+    
+}
+
+.questions img{
+    height: 164px;
+    margin-left: -550px;
+    margin-top: 30px;
+}
+.questions h2{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.group {
+}
+.button {
+}
+
+.form {
+    max-width: 320px;
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #fff;
+    width: 357px;
+    padding-left: 100px;
+  }
+
+  .input {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #EFEFEF;
+  }
+
+.form button{
+ 
+    height: 44px;
+    width: 214px;
+    background: #F3C650;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #535353;
+    margin-left: 75px;
+    transition: 1s;
+}
+
+.form button:hover{
+    background: #fffa6f;
+    box-shadow: -10px 10px 7px #a5a5a5;
+    cursor: pointer;
+}

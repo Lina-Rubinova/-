@@ -1,0 +1,119 @@
+.menu_item{
+    color: #FFF;
+    font-weight: 500;
+}
+
+.menu-item span{
+    color: #FFC94F;
+}
+ 
+
+header{
+    background: #0C0537;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+}
+.nav {
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: -100px;
+
+    
+}
+.logo {
+    position: relative;
+    width: 70px;
+    height: 53px;
+    bottom: 9px;
+    left: 80px;
+    opacity: 0px;
+    
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 683px;
+    height: 70px;
+
+}
+
+.plus {
+    position: relative;
+    top: 3px;
+    left: -15px;
+}
+.imgMail {
+    width: 15px;
+    height: 15px;
+    left: -10px;
+}
+.mailru1 {
+    color: #FFF;
+    font-weight: 400;
+    
+}
+.phoneImg {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: -5px;
+
+    
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 130px;
+    justify-content: space-between;
+    
+}
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    height: 44px;
+    width: 214px;
+    
+
+}
+
+.phone1{
+    color: #FFF;
+    font-weight: 600;
+}
+.datacenter{
+    font-family: Montserrat;
+    font-size: 14px;
+
+    
+    line-height: 17.07px;
+    text-align: left;
+    
+    position: relative;
+    left: -120px;
+    width: 24%;
+    height: 70px;
+
+   
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,48 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 290px;
+    background: #3D4F64;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+}
+
+.last_logo {
+    margin-top: 50px;
+    color: #FFF;
+}
+
+
+.catalog_tovarov h3{
+    color: #FFF;
+}
+.catalog_tovarov li a{
+    color: #FFF;
+    font-weight: 300;
+}
+.other li a{
+    color: #FFF;
+    
+}
+.contacts li a{
+    color: #FFF;
+    font-weight: 300;
+}
+
+.contacts{
+    margin-top: 50px;
+}
+
+.catalog_tovarov{
+    margin-top: 50px;
+}
+
+
+
+.other{
+    margin-top: 50px;
+}
+

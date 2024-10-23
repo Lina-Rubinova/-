@@ -1,0 +1,81 @@
+.catalog {
+    height: 595px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.describe {
+    position: relative;
+    left: 90px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -60px;
+    
+ 
+
+}
+
+.describe1{
+  
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.describe h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;  
+    color: #FFC94F;
+}
+
+.describe p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    width: 450px;
+
+}
+.go_to_catalog{
+    width: 280px;
+    height: 44px;
+    top: 876px;
+    left: 340px;
+    gap: 0px;
+    border-radius: 2px;
+    opacity: 0px;
+    background: #3D4F64;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ulli{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    height: 250px;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+hr{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #EFEFEF; /* Цвет линии для остальных браузеров */
+    background-color: #EFEFEF; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px; /* Толщина линии */
+}
+
+
