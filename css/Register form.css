@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.container{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container header{
+    font-size:  25px;
+    color: #333;
+   
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.container .form{
+    margin-top: 30px;
+}
+
+.input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label{
+    color: #333;
+
+}
+
+.form .input-box input{
+    position: relative;
+    font-size: 16px;
+    color: #707070;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding-left: 15px;
+    margin-top: 8px;
+}
+
+.column{
+    display: flex;
+    column-gap: 15px;
+}
+
+.form .gender-option{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    cursor: pointer;
+}
+
+.form :where( .gender input, .gender label){
+    cursor: pointer;
+}
+
+.gender-box{
+    margin-top: 20px
+}
+
+.gender-box h3{
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.form button{
+    height: 55px;
+    width: 100%;
+    background-color: rgb(214, 232, 235);
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.form button:hover{
+    background: rgb(153, 154, 153)00;
+}
+.imgliggtt{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    
+}

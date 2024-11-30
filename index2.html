@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/Register form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="img/spot-lights-background_52683-43968.avif" alt="lights" class="imgliggtt">
+    <section class="container">
+        <header>Регистрация</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Имя</label>
+                <input type="text" placeholder="Введите полное имя" required>
+            </div>
+            <div class="input-box">
+                <label>Электронная почта</label>
+                <input type="email" pattern="^\S+@\S+\.\S+$" placeholder="Введите ваш электронный адрес">
+            </div>
+
+            <div class="column">
+                <div class="input-box">
+                    <label>Телефон</label>
+                    <input type="text" placeholder="Введите ваш номер телефона"pattern="[8][0-9]{10}" title="Номер телефона должен начинаться с 8 и содержать 11 цифр">
+                </div>
+
+                <div class="input-box">
+                    <label>Дата рождения</label>
+                    <input type="date"  placeholder="Введите вашу дату рождения" required>
+                </div>
+            </div>
+            <div class="gender-box">
+                <h3>Выберите пол</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-male" name="gender">
+                        <label for="check-male">Мужской</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender">
+                        <label for="check-female">Женский</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender">
+                        <label for="check-other">Предпочитаю скрыть</label>
+                    </div>
+                </div>
+            </div>
+            <div class="input-box">
+                <label>Адрес</label>
+                <input type="text" placeholder="Введите регион" required>
+                <input type="text" placeholder="Введите город" required>
+                <input type="text" placeholder="Введите улицу и дом" required>
+                <input type="text" placeholder="Введите почтовый индекс" required>
+
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+</body>
+</html>
