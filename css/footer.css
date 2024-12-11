@@ -1,7 +1,7 @@
 footer{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100vw;
     height: 290px;
     background: #3D4F64;
     justify-content: center;

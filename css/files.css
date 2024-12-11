@@ -3,7 +3,7 @@
     justify-content: space-around;
     height: 188px;
     position: relative;
-    top: 20px;
+    top: 20px; 
 }
 
 
@@ -104,4 +104,8 @@
     background: #fffa6f;
     box-shadow: -10px 10px 7px #a5a5a5;
     cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    width: 0;
 }
